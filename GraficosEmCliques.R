@@ -1,0 +1,6 @@
+install.packages("esquisse")
+install.packages("ggplot2")
+library(esquisse)
+library(ggplot2)
+data(iris)
+esquisser(iris)
